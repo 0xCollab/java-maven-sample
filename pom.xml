@@ -21,10 +21,8 @@
       <id>hamcrest-core</id>
       <url>https://nexus.303net.net/#browse/search=keyword%3Dhamcrest-core:19d8cfa66d05be78836b5de8dd841598</url>
         </repository>
-
-<!-- <url>http://maven.apache.org</url> -->
-
-
+    </repositories>
+    <!-- <url>http://maven.apache.org</url> -->
     <properties>
         <!-- https://maven.apache.org/general.html#encoding-warning -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
