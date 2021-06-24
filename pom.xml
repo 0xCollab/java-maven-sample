@@ -8,7 +8,22 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>java-project</name>
-    <url>http://maven.apache.org</url>
+    <repositories>
+        <repository>
+      <id>maven-shade-plugin</id>
+      <url>https://nexus.303net.net/#browse/search=keyword%3Dmaven-shade-plugin:8fb430c9df20710c98412f5c99e2db71</url>
+        </repository>
+        <repository>
+      <id>junit</id>
+      <url>https://nexus.303net.net/#browse/search=keyword%3Djunit:d3510b7ad18d82cd955c595666e99ca9</url>
+        </repository>
+        <repository>
+      <id>hamcrest-core</id>
+      <url>https://nexus.303net.net/#browse/search=keyword%3Dhamcrest-core:19d8cfa66d05be78836b5de8dd841598</url>
+        </repository>
+
+<!-- <url>http://maven.apache.org</url> -->
+
 
     <properties>
         <!-- https://maven.apache.org/general.html#encoding-warning -->
@@ -23,6 +38,7 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+
         </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
