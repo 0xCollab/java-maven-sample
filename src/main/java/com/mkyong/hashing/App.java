@@ -1,4 +1,4 @@
-package com.mkyong.hashing;
+package hashing;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
